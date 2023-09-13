@@ -15,17 +15,22 @@
 
 Эффективность построения триангуляции имеет временную сложность O(n log n), где n - количество точек. Это делает его подходящим для обработки больших наборов точек в реальном времени.
 
-## Документация
-Каждый метод в алгоритма триангуляции задокументирован здесь
+## Реализация
+Алгоритм я реализовал здесь
 [Delaunay/Triangulator.cs](https://github.com/Focus1337/DelaunaySolver/blob/main/Delaunay/Triangulator.cs)
 
-## Примеры работы
-![Example 1](Renders/Example.png "Title")
-Триангуляция 1 млн. точек
-![Example 2](Renders/Million%20points.png "Title")
-Экспортированные рендеры
-![Exported 1](Renders/t-result-10-07-2023-1-19-18.png "Title")
-![Exported 2](Renders/t-result-10-07-2023-12-37-13.png "Title")
+## Визуализация триангуляции
+Визуализировал здесь
 
-## Benchmark
-![Benchmark](Renders/Benchmark.png "Title")
+## Примеры работы
+Триангуляция 10 точек 
+Время работы:
+![Example 1](Renders/Example.png "Title")
+Триангуляция 10 тысяч точек
+Время работы:
+![Example 2](Renders/Million%20points.png "Title")
+Триангуляция 1млн точек
+Время работы:
+![Example 2](Renders/Million%20points.png "Title")
+
+
